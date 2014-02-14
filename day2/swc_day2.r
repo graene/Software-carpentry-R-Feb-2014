@@ -1,5 +1,7 @@
 rm(list=ls())
 
+# git test
+
 # Two functions from yesterday that we'll use this morning:
 sanity.check <- function(x){
   if(any(is.na(x)) || is.numeric(x) || length(x) < 2 )
